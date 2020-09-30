@@ -1,0 +1,18 @@
+  public static void main(String[] args) {
+	String nome = "Carolina Pereira";
+	int idade = 20;
+	String rg = "34.654.789-9";
+	char sexo = 'F';
+	double salario = 1500.0;
+	int anoAtual = 2009;
+	double aliquota = 0.20;
+	int anoNascimento = anoAtual - idade;
+	String sexoPorExtenso;
+	if (sexo == 'M') {
+	  sexoPorExtenso = "masculino";
+	} else {
+	  sexoPorExtenso = "feminino";
+	}
+
+  }
+}
