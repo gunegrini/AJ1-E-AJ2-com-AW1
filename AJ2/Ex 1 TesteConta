@@ -1,0 +1,20 @@
+public class TestaConta {
+
+    public static void main(String[] args) {
+        
+        Conta conta = new Conta();
+        
+        conta.agencia = 1;
+        conta.banco = 234;
+        conta.titular = "Globalcode";
+        conta.numero = "01945";
+        conta.saldo = 10000;
+        
+        System.out.println("  ");
+        System.out.println(" Agencia: "     + conta.agencia + "\tBANCO  : " + conta.banco);    
+        System.out.println(" Numero : " + conta.numero);
+        System.out.println(" Titular: " + conta.titular);
+        System.out.println(" Saldo  : R$" + conta.saldo);
+        System.out.println("  ");    
+    }
+}
