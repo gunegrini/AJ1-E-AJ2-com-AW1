@@ -9,7 +9,7 @@ class TestaConta {
         // Criacao da conta
         Conta c = new Conta();
         // Inicializacao da conta
-        c.inicializaConta(1000.0, "1040-8", "JoÃ£o da Silva", 254, 104);
+        c.inicializaConta(1000.0, "1040-8", "Jonny Wow", 254, 104);
         // Impressao dos dados da conta
         c.imprimeDados();
         // Saque da conta
