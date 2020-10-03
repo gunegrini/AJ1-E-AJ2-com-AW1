@@ -1,10 +1,10 @@
  public static void main(String[] args) {
-	String nome = "Carolina Pereira";
-	int idade = 20;
-	String rg = "34.654.789-9";
-	char sexo = 'F';
-	double salario = 1500.0;
-	int anoAtual = 2009;
+	String nome = "Carlos Bakery";
+	int idade = 29;
+	String rg = "41.37.211.81";
+	char sexo = 'M';
+	double salario = 1000.0;
+	int anoAtual = 2020;
 	double aliquota = 0.20;
 	int anoNascimento = anoAtual - idade;
 	String sexoPorExtenso = sexo == 'M' ? "masculino" : "feminino";
