@@ -1,0 +1,18 @@
+class Agencia {
+
+    String numero;
+    int banco;
+
+       void inicializaAgencia(String num, int bc) {
+       System.out.println("Inicializando uma agencia com os seguintes dados:");
+       numero = num;
+       banco = bc;
+    }
+
+       void imprimeDados() {
+        System.out.println("  ");
+        System.out.println("Agencia  " + numero);
+        System.out.println("Banco " + banco);
+        System.out.println(" ");
+    }
+}
