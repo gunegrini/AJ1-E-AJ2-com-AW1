@@ -1,0 +1,22 @@
+public class Banco {
+
+    private String nome;
+    private int numero;
+    private Agencia agencias[];
+    private int numAgenciasAbertas = 0;
+    private static int numeroProximaAgencia = 1234;
+
+    /**
+     * @param nome
+     *            Nome do banco
+     * @param numero
+     *            Numero do banco
+     * @param numeroMaxAgencias
+     *            Numero maximo de agencias
+     */
+    public Banco(String nome, int numero, int numeroMaxAgencias) {
+        this.nome = nome;
+        this.numero = numero;
+        this.agencias = new Agencia[numeroMaxAgencias];
+    }
+
