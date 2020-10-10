@@ -1,0 +1,13 @@
+/*
+ * Globalcode - "The Developers Company"
+ * 
+ * Academia do Java
+ */
+public class TestaCliente {
+
+    public static void main(String[] args) {
+         Cliente c = new Cliente();
+        c.inicializaCliente("Andrade Seriema", "678.321.456.21");
+        c.imprimeDados();
+    }
+}
