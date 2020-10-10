@@ -37,6 +37,21 @@ public class Conta {
     }
 
     /**
+     * 
+     * @param num
+     *            Numero da conta
+     * @param tit
+     *            Titular da conta
+     * @param ag
+     *            Agencia a qual a conta pertence
+     * @param bc
+     *            Banco a qual a agencia pertence
+     */
+    public void inicializaConta(String num, String tit, String ag, int bc) {
+        this.inicializaConta(0, num, tit, ag, bc);
+    }
+
+    /**
      * @param valor
      *            Valor a ser sacado da conta
      */
@@ -111,38 +126,6 @@ public class Conta {
         return titular;
     }
 
-    /**
-     * @param saldo
-     *            Saldo da conta
-     */
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-    /**
-     * @param agencia
-     *            Numero da agencia da conta
-     */
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
-    }
-
-    /**
-     * @param banco
-     *            Numero do banco da conta
-     */
-    public void setBanco(int banco) {
-        this.banco = banco;
-    }
-
-    /**
-     * @param numero
-     *            Numero da conta
-     */
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-    
     /**
      * @param titular
      *            Nome do titular da conta
