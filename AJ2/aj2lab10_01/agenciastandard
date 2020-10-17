@@ -1,0 +1,13 @@
+ protected void ajustarLimiteIndividual(ContaEspecial contaEspecial) {
+        if (contaEspecial.getSaldo() < -1000) {       // a
+            contaEspecial.setLimite(0);
+        } else if (contaEspecial.getSaldo() < -500) { // b
+            contaEspecial.setLimite(200);
+        } else if (contaEspecial.getSaldo() > 1000) { // c
+            contaEspecial.setLimite(500);
+        } else if (contaEspecial.getLimite() > 500) { // d
+            contaEspecial.setLimite(500);
+        }
+    }
+    
+}
